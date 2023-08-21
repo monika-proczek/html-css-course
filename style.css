@@ -5,21 +5,20 @@ body{
 
 }
 
-h2{
-    font-size: 28px;
-}
-
 h1{
     font-size: 36px;
 }
 
-span{
-    color: grey;
+h2{
+    font-size: 28px;
 }
 
-img{
-    width: 180px; 
-    height: 180px;
+h3{
+    margin-top: 5px;
+}
+
+span{
+    color: grey;
 }
 
 section,
@@ -55,4 +54,34 @@ header li{
 
 .circle{
     border-radius: 50%;
+}
+
+.profile-picture{
+    width: 180px; 
+    height: 180px;
+}
+
+.hobbies{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.hobbies li{
+    width: 33.3%;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+.hobbies div{
+    margin-left: 20px;
+}
+
+.hobbies p{
+    color: grey;
+}
+
+p{
+    line-height: 1.5;
 }
